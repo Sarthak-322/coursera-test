@@ -60,10 +60,10 @@ h1 {
 
 .sea{
   
-  background-color: blue;
+  background-color: #0000FF;
 }
 .cow{
-  color:white;
+  color:"white";
   background-color: #FFFF00;
 }
 
