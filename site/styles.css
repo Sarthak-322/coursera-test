@@ -5,7 +5,7 @@
 body{
 	margin: 0;
 	padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: sans-serif;
 }
 
 .row{
@@ -29,7 +29,7 @@ h1 {
 
 .content-name{
   overflow: none;
-  text-align: center;
+  text-align: justify;
   border: 4px solid black;
   width: 100px;
   height: 40px;
