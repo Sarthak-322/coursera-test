@@ -54,16 +54,16 @@ h1 {
 }
 
 .bird{
-
-  background-color: #FFFFFF;
+color: white;
+  background-color: #FF0000;
 }
 
 .sea{
   color: white;
-  background-color: #0000FF;
+  background-color: #008000;
 }
 .cow{
-  color:white;
+  
   background-color: #FFFF00;
 }
 
