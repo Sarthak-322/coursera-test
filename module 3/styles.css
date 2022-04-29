@@ -1,9 +1,10 @@
+
 .container-fluid{
 	margin: 0;
 	padding: 0;
 }
 
-.navigation-bar{
+.navigationbar{
 	border-radius: 0px;
 	background-color: rgba(0,0,0,0.8);
 }
@@ -30,22 +31,22 @@
   padding: 0;
 }
 
-.toggles{
+.navbar-toggle{
 	border: 2px solid white;
 	margin-right: 25px;
 }
 
-.icons{
+.icon-bar{
 	background-color: white;
 }
 
 
-.title{
+.main-title{
   margin-bottom: 15px;
   text-align: center;
-  color: #ff4532;
+  color: black;
   font-size: 50px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
 }
 
@@ -54,7 +55,7 @@ li{
 	width: 100%;
 }
 
-.itemmenu{
+.menu-item{
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -64,30 +65,30 @@ li{
 	display: block;
 }
 
-.itemmenu:hover{
-	background-color: rgba(0,0,0,0.9);
-	color: rgba(0,0,0,0.4);
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: rgba(0,0,0,0.6);
 }
 
 
 
 .row{
-	margin: 20px;
+	margin: 30px;
 }
 
 .content-box{
-	margin: 20px;
+	margin: 30px;
 	width: auto;
 	height: auto;
 	color: black;
 	background-color: rgba(0,0,0,0.2);
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	padding: 20px;
+	padding: 30px;
 }
 
-.item{
+.item-name{
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
