@@ -1,97 +1,131 @@
-
-.container-fluid{
-	margin: 0;
-	padding: 0;
+*{
+  box-sizing: border-box;
 }
-
-.navigationbar{
-	border-radius: 0px;
-	background-color: rgba(0,0,0,0.8);
+body{
+  background-color: white;
 }
+#link-top{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#link-top:hover{
+ 
+  color: blue;
 
-.navbar-brand{
-  font-size: 35px;
-  color: white;
+}
+.navbar{
+  padding:15px;
+  background-color: #E7E7E7;
   padding-left: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
-
-.navbar-brand:hover{
-	color: white;
+.navbar h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.3em;
+  font-weight: bold;
+  display: inline;
 }
-
-.nav{
-	margin: 0;
-	padding: 0;
-}
-
-.navbar-nav{
-  font-size: 25px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-toggle{
-	border: 2px solid white;
-	margin-right: 25px;
-}
-
-.icon-bar{
-	background-color: white;
-}
-
-
-.main-title{
-  margin-bottom: 15px;
-  text-align: center;
-  color: black;
-  font-size: 50px;
+#nav-list a{
   font-family: sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: orange;
+}
+#nav-list a:hover{
+  background-color: black;
+}
+#MENU{
+  width:100%;
+  padding: 15px;
+}
+#MENU h2{
+  text-align: center;
+  font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  padding: 15px;
+}
+.row{
+  width:100%;
+  overflow:hidden;
+}
+.container #content{
+  width:100%;
+  padding:15px;
+  border: 2px solid black;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color: #E7E7E7;
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container #content .Food-item{
+  color: black;
+  text-align: justify-all;
+}
+.container h3{
   font-weight: bold;
 }
-
-li{
-	box-sizing: border-box;
-	width: 100%;
+/***********************FOR MEDIUM DEVICES**********************/
+@media (min-width:992px){
+    /*
+    .col-md-4{
+      float:left;
+      width:33.33%;
+    }
+    */
+    .navbar{
+      border-bottom: 5px solid black;
+      height:80px;
+    }
 }
-
-.menu-item{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	background-color: white;
-	border-bottom: 1px solid black;
-	color: black;
-	display: block;
+/***********************FOR SMALL DEVICES**********************/
+@media (min-width:768px) and (max-width:991px){
+    /*
+    .col-sm-6{
+      float:left;
+      width:50%;
+    }
+    .col-sm-12{
+      float:left;
+      width:100%;
+    }
+    */
+    .navbar{
+      border-bottom: 5px solid black;
+      height:80px;
+    }
 }
+@media (max-width:767px){
+    /*
+    .col-xs-12{
+      float:left;
+      width:100%;
+    }
+    */
+    .navbar{
+      border: 3px solid black;
+    }
+    .navbar-header{
+      border-bottom: 3px solid grey;
+    }
+    .navbar .navbar-toggle{
+      border:2px solid black;
+      border-radius:10px;
+      background-color:  #E7E7E7 ;
+    }
+    .navbar .navbar-toggle:hover{
+    	background-color: white;
 
-.menu-item:hover{
-	background-color: rgba(0,0,0,0.5);
-	color: rgba(0,0,0,0.6);
-}
-
-
-
-.row{
-	margin: 30px;
-}
-
-.content-box{
-	margin: 30px;
-	width: auto;
-	height: auto;
-	color: black;
-	background-color: rgba(0,0,0,0.2);
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	padding: 30px;
-}
-
-.item-name{
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-#top{
+    }
+    .navbar .icon-bar{
+      background-color: black;
+    }
 
 }
